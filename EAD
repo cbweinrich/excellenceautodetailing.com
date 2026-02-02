@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Auto Detailing Excellence | Houston, TX</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #000;
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("https://chatgpt.com/s/m_6980de9bec50819192afa7c1a2ddf772");
+      background-size: cover;
+      background-position: center;
+      text-align: center;
+      padding: 90px 20px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: gold;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 15px 30px;
+      background: gold;
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      color: gold;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .services, .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: #111;
+      padding: 25px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .card h3 {
+      color: gold;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Auto Detailing Excellence</h1>
+  <p>Premium Mobile Auto Detailing in Houston, TX. We bring the shine to you.</p>
+  <a href="#contact" class="btn">Book Your Detail</a>
+</header>
+
+<section>
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Exterior Detail</h3>
+      <p>Hand wash, wax, tire shine, and paint protection to restore your vehicle’s gloss.</p>
+    </div>
+    <div class="card">
+      <h3>Interior Detail</h3>
+      <p>Deep cleaning of carpets, seats, dashboard, and door panels.</p>
+    </div>
+    <div class="card">
+      <h3>Full Detail</h3>
+      <p>Complete interior + exterior service for maximum transformation.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Our Work</h2>
+  <div class="gallery">
+    <img src="https://lens.usercontent.google.com/image?vsrid=COWQ0cPIku7jRhACGAEiJDM0ZmFmMGY4LTNiYzItNDJjZi04ZDI2LTA4ZDFkNGU2MjBiMDIGIgJkeigQOP_aouKpu5ID&gsessionid=SRZ0vIHbl3iYmZw-Bl8e7GLHAuPTiNtoLmjpoZOhLWtMXbnBHwQ_Dg">
+    <img src="https://lens.usercontent.google.com/image?vsrid=CImYndDS0I7NkwEQAhgBIiQ3ODMzNzhmMC1hOTVhLTRhMWUtYWIzNi1iZTA5NzBlMmUxMmEyBiICZHooETjmoov1qbuSAw&gsessionid=xFhI55GVlw77Y2qUkwWgJrX45I9lDHXInylD9hNKj6f_EYKZzeg3NQ">
+    <img src="https://chatgpt.com/s/m_6980de9bec50819192afa7c1a2ddf772">
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Book Your Detail</h2>
+  <div class="card">
+    <p><strong>📍 Location:</strong> Houston, TX</p>
+    <p><strong>📞 Phone:</strong> 913-951-9488R</p>
+    <p><strong>📧 Email:</strong> cbweinrich@gmail.com </p>
+    <p>Text or call to schedule your appointment.</p>
+    <a href="tel:913-951-9488" class="btn">Call Now</a>
+  </div>
+</section>
+
+<footer>
+  © 2026 Excellence Auto Detailing — Mobile Auto Detailing Houston, TX
+</footer>
+
+</body>
+</html>
